@@ -17,4 +17,16 @@ with open('summary.txt', 'w') as file:
     file.write('\n\nSpecies:\n')
     file.write(df['class'].value_counts().to_string())
 
-
+# histogram.png output
+# Run the for loop over all columns apart from the final one 'class' as this gives the reader no useful information.
+for column in df.columns[:-1]:
+    # Plots each loop  
+    plt.figure()
+    # Formatting of histogram
+    df[column].hist(bins=50, edgecolor='black')
+    # Using string literals to apply current column in naming convention.
+    plt.title(f'Histogram of {column}')
+    plt.xlabel(column)
+    plt.ylabel('Frequency')
+    plt.savefig(f'{column}_histogram.png')
+    plt.close()
