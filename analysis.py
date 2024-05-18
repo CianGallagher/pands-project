@@ -8,14 +8,13 @@ df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/iris-
 # Columns defined
 column_names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
 
-# Testing summary output
+# summary.txt output
 with open('summary.txt', 'w') as file:
-    # Statistics summary
+    # Statistics summary using .describe() method
     file.write("Statistics Summary:\n") 
-    # Writing the descibe method to a string on the dataframe (df)
     file.write(df.describe().to_string())
-    # Need to reduce the value count per species down to just a class count.... output is unreadable currently
+    # Species count by [class]
     file.write('\n\nSpecies:\n')
-    file.write(df.value_counts().to_string())
+    file.write(df['class'].value_counts().to_string())
 
 
