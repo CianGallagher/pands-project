@@ -33,7 +33,18 @@ for column in df.columns[:-1]:
     # Closing to avoid issues with overlap or memory issues.
     plt.close()
 
-# pairplot_scatter.png output - Seaborn includes a built in pair method for plotting, added to dependencies.
+# pairplot_scatter.png output - Seaborn includes a built in pair function for plotting, added to dependencies.
 sns.pairplot(df, hue='class', markers=['o', 's', 'D'])
 plt.savefig('pairplot_scatter.png')
 plt.close()
+
+# pairplot_violin.png output - Extra plot - Seaborn also has a built in violin plot function - This is really interesting as it not only illustrates the data sets numerical data but it also looks like a flower.
+# NOT SURE HOW USEFUL THIS PLOT IS APART FROM THE FACT IT LOOKS LIKE A FLOWER...
+for feature in df.columns[:-1]:
+    plt.figure()
+    sns.violinplot(x='class', y=feature, data=df, style='whitegrid')
+    plt.title(f'{feature} distribution by species')
+    plt.xlabel('Species')
+    plt.ylabel(feature)
+    plt.savefig(f'{feature}_violin.png')
+    plt.close()

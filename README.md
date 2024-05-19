@@ -46,3 +46,7 @@ The iris flowers are also classified by species into three types:
 - String Literals for histogram naming- https://baalkikhaal.github.io/2021/03/05/Handling-string-literals-in-matplotlib.html
 
 - seaborn.pairplot - https://seaborn.pydata.org/generated/seaborn.pairplot.html
+
+- seaborn.violinplot - https://www.geeksforgeeks.org/violinplot-using-seaborn-in-python/
+
+- seaborn styles https://seaborn.pydata.org/generated/seaborn.set_style.html
