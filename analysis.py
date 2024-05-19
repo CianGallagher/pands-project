@@ -29,4 +29,5 @@ for column in df.columns[:-1]:
     plt.xlabel(column)
     plt.ylabel('Frequency')
     plt.savefig(f'{column}_histogram.png')
+    # Closing to avoid issues with overlap or memory issues.
     plt.close()
