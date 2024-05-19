@@ -4,11 +4,22 @@
 <h2>Summary</h2>
 
 The Iris data set is a classical data set used in machine learning, popularised by Ronald A. Fisher in 1936. It is sometimes referred to as the Anderson's dataset as it was botanist Edgar Anderson who originally collected the data. 
-It includes 150 records of iris flowers with four features: sepal length, sepal width, petal length, and petal width. The iris flowers are also classified by species into three types: Iris Setosa, Iris Versicolor, and Iris Virginica.
+It includes 150 records of iris flowers with four features: 
 
-<h2>Dependencies:</h2>
+- sepal length in centimetres.
+- sepal width in centimetres.
+- petal length in centimetres.
+- petal width in centimetres.
 
-* Python - Programming language.
+The iris flowers are also classified by species into three types: 
+
+- Iris Setosa.
+- Iris Versicolor.
+- Iris Virginica.
+
+<h2>Dependencies</h2>
+
+* Python - General purpose programming language.
 * Pandas - Python data analysis library.
 * Matplotlib.pyplot - Collection of matplotlib functions.
 * Seaborn - Python data visualization library based on matplotlib.
