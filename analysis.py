@@ -11,7 +11,7 @@ column_names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 's
 
 # summary.txt output
 with open('summary.txt', 'w') as file:
-    # Statistics summary using .describe() method
+    # .write() used to write the arguments into the txt file. Statistics summary produced using pandas .describe() method.
     file.write("Statistics Summary:\n") 
     file.write(df.describe().to_string())
     # Species count by [class]
