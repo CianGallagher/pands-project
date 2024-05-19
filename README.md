@@ -15,16 +15,16 @@ It includes 150 records of iris flowers with four features: sepal length, sepal 
 
 <h2>References</h2>
 
-Markdown quick reference - https://wordpress.com/support/markdown-quick-reference/ \n
+- Markdown quick reference - https://wordpress.com/support/markdown-quick-reference/ 
 
-Reading in a CSV file from a raw github user - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html \n
+- Reading in a CSV file from a raw github user - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html 
 
-Python write() function - https://www.w3schools.com/python/python_file_write.asp\n
+- Python write() function - https://www.w3schools.com/python/python_file_write.asp
 
-matplotlib plotting histogram each loop - https://stackoverflow.com/questions/50773877/create-for-loop-to-plot-histograms-for-individual-columns-of-dataframe-with-seab \n
+- matplotlib plotting histogram each loop - https://stackoverflow.com/questions/50773877/create-for-loop-to-plot-histograms-for-individual-columns-of-dataframe-with-seab 
 
-matplotlib colors - https://matplotlib.org/stable/gallery/color/named_colors.html \n
+- matplotlib colors - https://matplotlib.org/stable/gallery/color/named_colors.html
 
-String Literals for histogram naming- https://baalkikhaal.github.io/2021/03/05/Handling-string-literals-in-matplotlib.html \n
+- String Literals for histogram naming- https://baalkikhaal.github.io/2021/03/05/Handling-string-literals-in-matplotlib.html
 
-seaborn.pairplot - https://seaborn.pydata.org/generated/seaborn.pairplot.html
+- seaborn.pairplot - https://seaborn.pydata.org/generated/seaborn.pairplot.html
