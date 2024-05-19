@@ -8,10 +8,10 @@ It includes 150 records of iris flowers with four features: sepal length, sepal 
 
 <h2>Dependencies:</h2>
 
-*Python - Programming language.
-*Pandas - Python data analysis library.
-*Matplotlib.pyplot - Collection of matplotlib functions.
-*Seaborn - Python data visualization library based on matplotlib.
+* Python - Programming language.
+* Pandas - Python data analysis library.
+* Matplotlib.pyplot - Collection of matplotlib functions.
+* Seaborn - Python data visualization library based on matplotlib.
 
 <h2>References</h2>
 
