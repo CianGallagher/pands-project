@@ -19,3 +19,12 @@ Iris Virginica.
 
 The primary objective of this dataset is to organise the species of Iris by petal and sepal dimensions.
 
+Dependencies
+
+Python
+Pandas
+Matplotlib
+
+Script explanation and outputs
+
+Once the above dependencies have been installed, navigate to the containing directory and run 'python analysis.py' in your terminal, this should produce a statistical summary of the dataset in a text file, a histogram for EACH variable as a PNG, and a scatter plot for EACH PAIR of variables.
