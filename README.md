@@ -5,7 +5,7 @@
 
 The Iris data set is a classical data set used in statistics and machine learning, popularised by statistician Ronald A. Fisher. The Iris data set is derived from observations made by botanist Edgar Anderson for his seminal paper 'The Species Problem In Iris'. This paper appears from pages 457-509 in volume 23 of the Annals of the Missouri Botanical Garden 1936[1]. The goal of Andersons' original paper was to investigate and distinguish between similarly structured Iris species by using more a nuanced approach than just clear cut physical characteristics which at the time was the status quo in botany.
 
-The Iris data set includes 150 records of iris flowers with four features: 
+The Iris data set includes 150 records of iris flowers with four features/variables: 
 
 - sepal length in centimetres.
 - sepal width in centimetres.
@@ -36,16 +36,14 @@ The iris flowers are also classified by species into three types:
 
 1. The Iris data set is loaded from https://raw.githubusercontent.com/plotly/datasets/master/iris-data.csv
 2. A summary.txt containing a statistics summary and species distribution is saved to the current directory.
-3. A histogram PNG is generated for each variables(excluding class) frequency. This is done by looping through the variables one by one and plotting a histogram each loop using both pandas and matplotlib.
+3. A histogram PNG (4 in total) is generated for each variables(excluding class) frequency. This is done by looping through the variables one by one and plotting a histogram each loop using both pandas and matplotlib.
 4. A Pairplot scatter PNG is generated for each pair of variables per species. Generating a pairplot using pandas or matplotlib didn't seem feasible originally but upon researching for solutions it was discovered that seaborn has a built in pairplot function, the arguments provided to the function were the data set df, the hue, which is the variable or column used(species/class), and markers which are the shape of the markers drawn on the plot for each species in this case.
-5. A violin plot PNG is generated for each variable.
+5. A violin plot PNG(4 in total) is generated for each variable. A violin plot illustrates the density/frequency and distribution of the variables around the mean. It is also quite apporpriate aesthetically given the plots visual similarity to a flower. These plots are produced using a similar logic to the histogram loop, the main difference being that seaborns .violinplot method is used each loop in place of pandas .hist method. 
 
 
 <h2>References</h2>
 
 - The Species Problem In Iris - http://biostor.org/reference/11559 [1]
-
-- Markdown quick reference - https://wordpress.com/support/markdown-quick-reference/ 
 
 - Reading in a CSV file from a raw github user - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html 
 
@@ -62,3 +60,5 @@ The iris flowers are also classified by species into three types:
 - seaborn.violinplot - https://www.geeksforgeeks.org/violinplot-using-seaborn-in-python/
 
 - seaborn styles https://seaborn.pydata.org/generated/seaborn.set_style.html
+
+- Markdown quick reference - https://wordpress.com/support/markdown-quick-reference/ 
