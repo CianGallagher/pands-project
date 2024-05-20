@@ -3,7 +3,8 @@
 
 <h2>Summary</h2>
 
-The Iris data set is a classical data set used in machine learning, popularised by Ronald A. Fisher in 1936. It is sometimes referred to as the Anderson's dataset as it was botanist Edgar Anderson who originally collected the data. 
+The Iris data set is a classical data set used in data science, popularised by Ronald A. Fisher in 1936. The Iris data set is derived from observations made by botanist Edgar Anderson for his seminal paper 'The Species Problem In Iris'. This paper appears from pages 457-509 in volume 23 of the Annals of the Missouri Botanical Garden 1936[1](#The Species Problem In Iris - http://biostor.org/reference/11559). The goal of Andersons' original paper in simple terms was to investigate and distinguish between similarly structured Iris species.
+
 It includes 150 records of iris flowers with four features: 
 
 - sepal length in centimetres.
@@ -34,6 +35,8 @@ The iris flowers are also classified by species into three types:
 <h2>Script details and output</h2>
 
 <h2>References</h2>
+
+- The Species Problem In Iris - http://biostor.org/reference/11559
 
 - Markdown quick reference - https://wordpress.com/support/markdown-quick-reference/ 
 
