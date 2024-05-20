@@ -28,8 +28,10 @@ The iris flowers are also classified by species into three types:
 
 1. Open your prefered terminal and navigate to a location you wish to save this analysis, for this project bash was used.
 2. Download/clone the repository by entering the following into your terminal - git clone https://github.com/CianGallagher/pands-project.git
-3. Install the above dependencies. This may differ depending on your Operating System (OS) but once they have been installed on your system the script can be run. For this project the homebrew package manager was used.
+3. Install the above dependencies. This may differ depending on your Operating System (OS) but once they have been installed on your system the script can be run. For this project the homebrew/pip package managers were used.  
 4. In the terminal run 'python .\analysis.py'. Please note that on some systems you may need to specify your version of python e.g. 'python3 analysis.py'.
+
+<h2>Script details and output</h2>
 
 <h2>References</h2>
 
