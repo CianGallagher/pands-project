@@ -27,12 +27,19 @@ The iris flowers are also classified by species into three types:
 
 <h2>Running the Analysis</h2>
 
-1. Open your prefered terminal and navigate to a location you wish to save this analysis, for this project bash was used.
+1. Open your preferred terminal and navigate to a location you wish to save this analysis, for this project bash was used.
 2. Download/clone the repository by entering the following into your terminal - git clone https://github.com/CianGallagher/pands-project.git
-3. Install the above dependencies. This may differ depending on your Operating System (OS) but once they have been installed on your system the script can be run. For this project the homebrew/pip package managers were used.  
+3. Install the above dependencies. This may differ depending on your Operating System (OS) but once they have been installed on your system the script can be run. For example, pip was used as the package manager during this project. Terminal command examples 'pip install pandas' or 'pip install seaborn'
 4. In the terminal run 'python .\analysis.py'. Please note that on some systems you may need to specify your version of python e.g. 'python3 analysis.py'.
 
 <h2>Script details and output</h2>
+
+1. The Iris data set is loaded from https://raw.githubusercontent.com/plotly/datasets/master/iris-data.csv
+2. A summary.txt containing a statistics summary and species distribution is saved to the current directory.
+3. A histogram PNG is generated for each variables(excluding class) frequency. This is done by looping through the variables one by one and plotting a histogram each loop using both pandas and matplotlib.
+4. A Pairplot scatter PNG is generated for each pair of variables per species. Generating a pairplot using pandas or matplotlib didn't seem feasible originally but upon researching for solutions it was discovered that seaborn has a built in pairplot function, the arguments provided to the function were the data set df, the hue, which is the variable or column used(species/class), and markers which are the shape of the markers drawn on the plot for each species in this case.
+5. A violin plot PNG is generated for each variable.
+
 
 <h2>References</h2>
 

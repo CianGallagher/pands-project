@@ -6,7 +6,7 @@ import seaborn as sns
 # Loading the Iris dataset directly from the source github repository and assigning to variable df
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/iris-data.csv')
 
-# Columns defined
+# Columns defined is needed in the future
 column_names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
 
 # summary.txt output
@@ -39,7 +39,7 @@ plt.savefig('pairplot_scatter.png')
 plt.close()
 
 # pairplot_violin.png output - Extra plot - Seaborn also has a built in violin plot function - This is really interesting as it not only illustrates the data sets numerical data but it also looks like a flower.
-# NOT SURE HOW USEFUL THIS PLOT IS APART FROM THE FACT IT LOOKS LIKE A FLOWER...
+
 for feature in df.columns[:-1]:
     plt.figure()
     sns.violinplot(x='class', y=feature, data=df, style='whitegrid')
